@@ -1,4 +1,0 @@
-## Installation:
-```bash
-npm install
-```
