@@ -1,9 +1,10 @@
-import React from 'react'
+import { type ReactElement } from 'react'
 
-const App = (): React.ReactElement => {
+const App = (): ReactElement => {
+
   return (
     <div>
-      App component 1
+      App component
     </div>
   )
 }

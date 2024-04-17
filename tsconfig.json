@@ -2,9 +2,9 @@
   "compilerOptions": {
     "target": "es2020",
     "lib": [
+      "es2020",
       "dom",
-      "dom.iterable",
-      "esnext"
+      "dom.iterable"
     ],
     "allowJs": true,
     "skipLibCheck": true,
@@ -18,10 +18,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": false,
-    "jsx": "preserve",
-    "outDir": "./dist"
+    "jsx": "react-jsx",
   },
   "include": [
-    "src"
+    "src",
+    "vite.config.ts"
   ]
 }
